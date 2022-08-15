@@ -21,10 +21,10 @@ import Write from "./pages/Write";
 function App() {
   return (
     <div className="App" style={{ display: "flex", gap: "1rem" }}>
-      <Routes1>
+      <Routes22>
         <Route path="/" element={<Main />}></Route>
         <Route path="/write" element={<Write />}></Route>
-      </Routes1>
+      </Routes22>
     </div>
   );
 }
